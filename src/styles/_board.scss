@@ -1,0 +1,29 @@
+.board
+{
+   border: 1px solid  $black;
+
+    td
+    {
+         display: inline-block;
+         width: 75px;
+         height:75px;
+    }
+
+    .black
+    {
+        background-color: $black;
+    }
+
+    .white
+    {
+        background-color: $white;
+    }
+}
+
+.flex-middle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}

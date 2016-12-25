@@ -1,0 +1,33 @@
+.chip
+{
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #29b6f6 ;
+    /*background-color: #ffebee;*/
+    margin: -17px 0 0 -17px;
+    position: relative;
+    padding: 0;
+    top: 45%;
+    left: 45%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, .1) inset;
+    transition: border-color 0.2s linear 0.3s
+}
+
+.chip:hover
+{
+    border-color:#ff6f00;
+    cursor: pointer;
+}
+
+.active{
+    background: #1e88e5;    
+    border-color: #fff
+    
+}
+
+.active:hover
+    {
+        border-color:  #29b6f6;
+    }
